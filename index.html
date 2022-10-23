@@ -8,6 +8,7 @@
     <title>Mission M.A.R.S.</title>
     <link rel="stylesheet" href="styles.css" />
     <script src="scripts.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <div id="loadingCenter" class="center">
@@ -20,12 +21,16 @@
     <div class="introduction">
       <img class="space-img" src="img/Space-background.jpg" alt="" />
       <h1 class="colonizing hidden">COLONIZING MARS</h1>
-      <img class="alien" src="img/Alien cartoon.svg" alt="" />
-      <img src="IMG/Astronaut.svg" class="astronaut" />
+      <img class="alien" src="SVG/Alien cartoon.svg" alt="" />
+      <img data-aos="fade-in" src="SVG/Astronaut.svg" class="astronaut" />
       <img src="IMG/mars.png" alt="marspng" class="mars-img hidden" />
+      <a href="HTML/OPTION.html">
+        <img class="arrow-right" src="SVG/arrow-right-circle.svg" />
+      </a>
     </div>
-    <div style="height: 100vh">
-      <!-- <h1 class="year1h1 hidden" style="position: absolute;">Year 1</h1> -->
-    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
