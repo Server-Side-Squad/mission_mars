@@ -1,6 +1,7 @@
 /*  import google fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hind&display=swap");
 
 /* BASE CSS */
 
@@ -140,6 +141,28 @@ span {
   right: 75.72%;
   top: 150.84%;
   bottom: 12.3%;
+}
+.arrow-right {
+  position: relative;
+  width: 112px;
+  height: 112px;
+  bottom: 200px;
+  left: 1100px;
+  bottom: 100px;
+  cursor: pointer;
+  /* animation: arrow-animate 1s; */
+  filter: drop-shadow(10px 20px 4px rgba(0, 0, 0, 0.25));
+}
+@keyframes arrow-animate {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 @keyframes mars-animation {
   0% {
